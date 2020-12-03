@@ -10,6 +10,7 @@ public class Test {
         String searchTerm = sc.nextLine();
         System.out.print("Enter filename: ");
         String fileName = sc.nextLine();
+        sc.close();
 
         ArrayList<String> stringArray = new ArrayList<String>();
 
